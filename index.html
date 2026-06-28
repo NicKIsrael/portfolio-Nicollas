@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nicollas Israel | Portfólio</title>
+  <!-- Importação da fonte do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="dark">
+
+  <!-- ========== HEADER / NAVEGAÇÃO ========== -->
+  <header id="header">
+    <nav class="navbar">
+      <!-- Logo / Nome -->
+      <a href="#hero" class="nav-logo">NI<span class="accent">.</span></a>
+
+      <!-- Links de navegação -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre" class="nav-item">Sobre mim</a></li>
+        <li><a href="#formacao" class="nav-item">Formação</a></li>
+        <li><a href="#portfolio" class="nav-item">Portfólio</a></li>
+        <li><a href="#contato" class="nav-item">Contato</a></li>
+      </ul>
+
+      <!-- Controles do lado direito -->
+      <div class="nav-controls">
+        <!-- Botão de alternar tema claro/escuro -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema">
+          <span class="theme-icon">☀️</span>
+        </button>
+        <!-- Botão hamburguer para mobile -->
+        <button id="menu-toggle" class="menu-btn" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== SEÇÃO HERO ========== -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Olá, eu sou</p>
+        <h1 class="hero-title">Nicollas Israel<span class="accent">.</span></h1>
+        <p class="hero-subtitle">Estudante de <span class="highlight">Engenharia de Software</span></p>
+        <p class="hero-desc">
+          Apaixonado por programação e em constante evolução, buscando construir
+          uma carreira sólida no desenvolvimento de software.
+        </p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-primary">Entre em contato</a>
+          <a href="#sobre" class="btn btn-outline">Saiba mais</a>
+        </div>
+      </div>
+      <!-- Decoração visual lado direito -->
+      <div class="hero-visual">
+        <div class="code-card">
+          <div class="code-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <pre class="code-block"><span class="kw">const</span> <span class="fn">dev</span> = {
+  nome<span class="acc">:</span> <span class="str">"Nicollas Israel"</span>,
+  curso<span class="acc">:</span> <span class="str">"Eng. de Software"</span>,
+  foco<span class="acc">:</span> <span class="str">"Desenvolvimento Web"</span>,
+  experiência<span class="acc">:</span> <span class="str">"~1.5 anos"</span>,
+  objetivo<span class="acc">:</span> <span class="str">"Crescer sempre"</span>
+};</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEÇÃO SOBRE MIM ========== -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre mim<span class="accent">.</span></h2>
+        <div class="sobre-grid">
+          <!-- Texto de apresentação -->
+          <div class="sobre-text">
+            <p>
+              Meu nome é <strong>Nicollas Israel</strong> e sou estudante de
+              <strong>Engenharia de Software</strong> na UNINTER. Estudo programação
+              há cerca de <strong>1 ano e meio</strong> e busco evoluir diariamente
+              para construir uma carreira sólida e proporcionar uma vida melhor
+              para minha família.
+            </p>
+            <p>
+              Acredito que a tecnologia é uma das ferramentas mais poderosas para
+              transformar realidades — e é com essa motivação que me dedico aos
+              estudos todos os dias.
+            </p>
+          </div>
+
+          <!-- Cards de informações pessoais -->
+          <div class="sobre-cards">
+            <div class="info-card">
+              <span class="info-icon">🎓</span>
+              <div>
+                <strong>Curso</strong>
+                <p>Engenharia de Software — UNINTER (2° Período)</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">💻</span>
+              <div>
+                <strong>Experiência</strong>
+                <p>~1 ano e meio estudando programação</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">🎯</span>
+              <div>
+                <strong>Objetivo</strong>
+                <p>Carreira sólida em desenvolvimento de software</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">📍</span>
+              <div>
+                <strong>Localização</strong>
+                <p>Brasil</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEÇÃO FORMAÇÃO ========== -->
+    <section id="formacao" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Formação<span class="accent">.</span></h2>
+
+        <!-- Formação educacional -->
+        <div class="formacao-bloco">
+          <h3 class="bloco-titulo">Educação</h3>
+          <div class="timeline">
+
+            <!-- Item da timeline: UNINTER -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-ano">2024 — Atual</span>
+                <h4>Bacharelado em Engenharia de Software</h4>
+                <p class="timeline-inst">UNINTER — Centro Universitário Internacional</p>
+                <p>Graduação em andamento, atualmente no 2° período. Estudando fundamentos de programação, lógica computacional e desenvolvimento web.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Cursos e certificações -->
+        <div class="formacao-bloco">
+          <h3 class="bloco-titulo">Cursos & Certificações</h3>
+          <div class="cursos-grid">
+
+            <div class="curso-card">
+              <div class="curso-icon">🌐</div>
+              <h4>Desenvolvimento Web</h4>
+              <p class="curso-inst">WebHub</p>
+              <p>HTML, CSS e fundamentos de desenvolvimento para a web.</p>
+            </div>
+
+            <div class="curso-card">
+              <div class="curso-icon">💜</div>
+              <h4>C# — Programação Orientada a Objetos</h4>
+              <p class="curso-inst">Udemy</p>
+              <p>Linguagem C#, POO e desenvolvimento de aplicações com .NET.</p>
+            </div>
+
+            <div class="curso-card">
+              <div class="curso-icon">🧠</div>
+              <h4>Lógica de Programação</h4>
+              <p class="curso-inst">Curso em Vídeo</p>
+              <p>Fundamentos de lógica, algoritmos e resolução de problemas.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Habilidades técnicas com ícones -->
+        <div class="formacao-bloco">
+          <h3 class="bloco-titulo">Habilidades Técnicas</h3>
+          <div class="skills-grid">
+
+            <div class="skill-card">
+              <img src="assets/images/html-5.png" alt="HTML5" class="skill-img" />
+              <span>HTML5</span>
+            </div>
+
+            <div class="skill-card">
+              <img src="assets/images/css-3.png" alt="CSS3" class="skill-img" />
+              <span>CSS3</span>
+            </div>
+
+            <div class="skill-card">
+              <img src="assets/images/js.png" alt="JavaScript" class="skill-img" />
+              <span>JavaScript</span>
+            </div>
+
+            <div class="skill-card">
+              <img src="assets/images/do-sustenido.png" alt="C#" class="skill-img" />
+              <span>C#</span>
+            </div>
+
+            <div class="skill-card">
+              <img src="assets/images/github.png" alt="GitHub" class="skill-img skill-img-github" />
+              <span>Git & GitHub</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== SEÇÃO PORTFÓLIO ========== -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title">Portfólio<span class="accent">.</span></h2>
+        <p class="section-desc">
+          Estou no início da minha jornada e em breve novos projetos serão adicionados aqui.
+          Acompanhe meu GitHub para novidades!
+        </p>
+
+        <!-- Card de placeholder para projetos futuros -->
+        <div class="portfolio-grid">
+
+          <div class="projeto-card">
+            <div class="projeto-header">
+              <span class="projeto-icon">📁</span>
+              <span class="projeto-status em-breve">Em breve</span>
+            </div>
+            <h4>Portfólio Pessoal</h4>
+            <p>Este próprio site — desenvolvido com HTML5, CSS3 e JavaScript puro como atividade prática da faculdade.</p>
+            <div class="projeto-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="https://github.com/NicKIsrael" target="_blank" class="projeto-link">Ver no GitHub →</a>
+          </div>
+
+          <div class="projeto-card projeto-placeholder">
+            <div class="projeto-header">
+              <span class="projeto-icon">🚀</span>
+              <span class="projeto-status futuro">Futuro</span>
+            </div>
+            <h4>Próximos Projetos</h4>
+            <p>Novos projetos serão desenvolvidos ao longo da graduação e dos cursos. Fique de olho!</p>
+            <div class="projeto-tags">
+              <span>C#</span>
+              <span>Web</span>
+              <span>Software</span>
+            </div>
+            <a href="https://github.com/NicKIsrael" target="_blank" class="projeto-link">Acompanhe no GitHub →</a>
+          </div>
+
+        </div>
+
+        <!-- Link para o GitHub -->
+        <div class="github-cta">
+          <a href="https://github.com/NicKIsrael" target="_blank" class="btn btn-outline">
+            Ver perfil no GitHub
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== SEÇÃO CONTATO ========== -->
+    <section id="contato" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Contato<span class="accent">.</span></h2>
+        <p class="section-desc">
+          Quer conversar? Me manda uma mensagem!
+        </p>
+
+        <div class="contato-grid">
+
+          <!-- Informações de contato -->
+          <div class="contato-info">
+            <div class="contato-item">
+              <span class="contato-icon">📧</span>
+              <div>
+                <strong>E-mail</strong>
+                <p><a href="mailto:niicklnx@gmail.com">niicklnx@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contato-item">
+              <span class="contato-icon">💻</span>
+              <div>
+                <strong>GitHub</strong>
+                <p><a href="https://github.com/NicKIsrael" target="_blank">github.com/NicKIsrael</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulário de contato com validação em JavaScript -->
+          <form id="contato-form" class="contato-form" novalidate>
+
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" />
+              <!-- Span para exibir erro de validação -->
+              <span class="form-erro" id="erro-nome"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" />
+              <span class="form-erro" id="erro-email"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..."></textarea>
+              <span class="form-erro" id="erro-mensagem"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Enviar mensagem</button>
+          </form>
+
+        </div>
+
+        <!-- Modal de confirmação de envio -->
+        <div id="modal-sucesso" class="modal" role="dialog" aria-modal="true" aria-label="Mensagem enviada">
+          <div class="modal-box">
+            <span class="modal-icon">✅</span>
+            <h3>Mensagem enviada!</h3>
+            <p>Obrigado pelo contato, Nicollas responderá em breve.</p>
+            <button id="modal-fechar" class="btn btn-primary">Fechar</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="footer">
+    <p>Desenvolvido por <strong>Nicollas Israel</strong> · 2025</p>
+    <p class="footer-tech">HTML5 · CSS3 · JavaScript</p>
+  </footer>
+
+  <!-- Importação do JavaScript externo -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
